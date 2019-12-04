@@ -1,9 +1,3 @@
-# bravia
-Golang package for controlling Sony Bravia Televisions
-
-
-example applications:
-```
 package main
 
 import (
@@ -94,5 +88,5 @@ func main() {
 	time.Sleep(1 * time.Second)
 	tv.SetPowerStatus(false)
 	os.Exit(0)
+
 }
-```
